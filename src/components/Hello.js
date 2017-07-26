@@ -1,11 +1,10 @@
-import React from 'react'
-import HelloChild from './HelloChild'
+import React from "react";
+import HelloChild from "./HelloChild";
 
-const Hello = () => (
+const Hello = () =>
   <div>
     <div>Hello</div>
     <HelloChild />
-  </div>
-)
+  </div>;
 
-export default Hello
+export default Hello;

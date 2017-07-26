@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react";
+import { sum } from "./util";
 
-const Home = () => (
+const Home = () =>
   <div>
-    Home
-  </div>
-)
+    Home {sum()}
+  </div>;
 
-export default Home
+export default Home;
